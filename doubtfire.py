@@ -42,8 +42,7 @@ class LogFile:
         dt_last_log = dt.datetime.fromisoformat( self.df['Log datetime UTC'].iloc[-1] )
         if dt_last_log.date() == dt.datetime.utcnow().date():
             return False
-        else:
-            return True
+        return True
 
     def save(self):
         '''
@@ -81,6 +80,7 @@ def send_alert_email(dt_last_entry):
     except Exception as ex:
         stat = ex
     return stat
+
 
 config = ConfigParser()
 config.read('files.cfg')
