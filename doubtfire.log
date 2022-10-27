@@ -1,0 +1,270 @@
+,Log datetime UTC,Note
+0,2022-10-12 18:00,Last forecast was 2022-10-09 16:10:04 from 3.1 days ago
+1,2022-10-12 18:00,Forecast more than 1 day old - email sent (Ok 202)
+2,2022-10-12 18:00,nanny.py run to completion
+3,2022-10-12 19:00,nanny.py run to completion
+4,2022-10-12 19:38,nanny.py run to completion
+5,2022-10-12 19:39,nanny.py run to completion
+6,2022-10-12 19:40,nanny.py run to completion
+7,2022-10-12 19:45,nanny.py run to completion
+8,2022-10-12 20:00,nanny.py run to completion
+9,2022-10-12 20:05,nanny.py run to completion
+10,2022-10-11 20:12,nanny.py run to completion
+11,2022-10-12 20:36,Last forecast was 2022-10-12 20:10:01 from 0.0 days ago
+12,2022-10-12 20:36,nanny.py run to completion
+13,2022-10-12 20:36,Last forecast was 2022-10-12 20:10:01 from 0.0 days ago
+14,2022-10-12 20:36,Forecast more than 1 day old - email sent (Ok 202)
+15,2022-10-12 20:36,nanny.py run to completion
+16,2022-10-12 20:37,Last forecast was 2022-10-12 20:10:01 from 0.0 days ago
+17,2022-10-12 20:37,Forecast more than 1 day old - email sent (Ok 202)
+18,2022-10-12 20:37,nanny.py run to completion
+19,2022-10-12 20:38,nanny.py run to completion
+20,2022-10-12 21:50,nanny.py run to completion
+21,2022-10-12 22:05,nanny.py run to completion
+22,2022-10-12 23:05,nanny.py run to completion
+23,2022-10-13 13:26,Daily forecast check: last entry 2022-10-13 12:10:01 from 0.1 days ago
+24,2022-10-13 13:26,nanny.py run to completion
+25,2022-10-13 14:11,nanny.py run to completion
+26,2022-10-13 15:05,nanny.py run to completion
+27,2022-10-13 16:10,nanny.py run to completion
+28,2022-10-13 17:05,nanny.py run to completion
+29,2022-10-13 18:05,nanny.py run to completion
+30,2022-10-13 23:14,nanny.py run to completion
+31,2022-10-14 00:05,Daily forecast check: last entry 2022-10-13 23:10:01 from 0.0 days ago
+32,2022-10-14 00:05,nanny.py run to completion
+33,2022-10-14 08:35,nanny.py run to completion
+34,2022-10-14 09:05,nanny.py run to completion
+35,2022-10-14 10:10,nanny.py run to completion
+36,2022-10-14 11:10,nanny.py run to completion
+37,2022-10-14 12:37,nanny.py run to completion
+38,2022-10-14 13:05,nanny.py run to completion
+39,2022-10-14 14:46,nanny.py run to completion
+40,2022-10-14 15:05,nanny.py run to completion
+41,2022-10-14 16:05,nanny.py run to completion
+42,2022-10-14 17:05,nanny.py run to completion
+43,2022-10-14 18:05,nanny.py run to completion
+44,2022-10-14 19:18,nanny.py run to completion
+45,2022-10-14 20:05,nanny.py run to completion
+46,2022-10-16 21:47,Daily forecast check: last entry 2022-10-14 19:05:02 from 2.1 days ago
+47,2022-10-16 21:47,Forecast data more than 1 day old - email sent (Ok 202)
+48,2022-10-16 21:47,nanny.py run to completion
+49,2022-10-16 22:05,nanny.py run to completion
+50,2022-10-17 14:41,Daily forecast check: last entry 2022-10-17 14:05:01 from 0.0 days ago
+51,2022-10-17 14:41,nanny.py run to completion
+52,2022-10-17 15:05,nanny.py run to completion
+53,2022-10-17 16:05,nanny.py run to completion
+54,2022-10-17 17:05,nanny.py run to completion
+55,2022-10-17 18:05,nanny.py run to completion
+56,2022-10-17 19:05,nanny.py run to completion
+57,2022-10-17 20:05,nanny.py run to completion
+58,2022-10-17 22:03,nanny.py run to completion
+59,2022-10-17 22:05,nanny.py run to completion
+60,2022-10-18 14:54,Daily forecast check: last entry 2022-10-18 14:05:02 from 0.0 days ago
+61,2022-10-18 14:54,nanny.py run to completion
+62,2022-10-18 15:05,nanny.py run to completion
+63,2022-10-18 16:05,nanny.py run to completion
+64,2022-10-18 17:05,nanny.py run to completion
+65,2022-10-18 18:05,nanny.py run to completion
+66,2022-10-18 19:05,nanny.py run to completion
+67,2022-10-18 20:09,nanny.py run to completion
+68,2022-10-18 21:05,nanny.py run to completion
+69,2022-10-18 22:05,nanny.py run to completion
+70,2022-10-18 23:05,nanny.py run to completion
+71,2022-10-19 00:25,Daily forecast check: last entry 2022-10-18 15:10:04 from 0.4 days ago
+72,2022-10-19 00:25,nanny.py run to completion
+73,2022-10-19 01:05,nanny.py run to completion
+74,2022-10-19 02:05,nanny.py run to completion
+75,2022-10-19 11:21,nanny.py run to completion
+76,2022-10-19 11:47,nanny.py run to completion
+77,2022-10-19 12:00,nanny.py run to completion
+78,2022-10-19 12:03,nanny.py run to completion
+79,2022-10-19 12:09,nanny.py run to completion
+80,2022-10-19 13:09,nanny.py run to completion
+81,2022-10-19 14:09,nanny.py run to completion
+82,2022-10-19 19:59,nanny.py run to completion
+83,2022-10-19 20:34,nanny.py run to completion
+84,2022-10-19 21:09,nanny.py run to completion
+85,2022-10-19 22:24,nanny.py run to completion
+86,2022-10-20 09:54,Daily forecast check: last entry 2022-10-19 05:10:03 from 1.2 days ago
+87,2022-10-20 09:54,Forecast data more than 1 day old - email sent (Ok 202)
+88,2022-10-20 09:54,nanny.py run to completion
+89,2022-10-20 10:09,nanny.py run to completion
+90,2022-10-20 13:01,nanny.py run to completion
+91,2022-10-21 12:59,Daily forecast check: last entry 2022-10-21 04:10:04 from 0.4 days ago
+92,2022-10-21 12:59,nanny.py run to completion
+93,2022-10-21 18:00,nanny.py run to completion
+94,2022-10-21 21:29,nanny.py run to completion
+95,2022-10-22 20:09,Daily forecast check: last entry 2022-10-22 11:10:04 from 0.4 days ago
+96,2022-10-22 20:09,nanny.py run to completion
+97,2022-10-23 12:54,Daily forecast check: last entry 2022-10-22 15:10:04 from 0.9 days ago
+98,2022-10-23 12:54,nanny.py run to completion
+99,2022-10-23 14:09,nanny.py run to completion
+100,2022-10-23 22:59,nanny.py run to completion
+101,2022-10-24 00:00,Daily forecast check: last entry 2022-10-23 06:10:04 from 0.7 days ago
+102,2022-10-24 00:00,nanny.py run to completion
+103,2022-10-24 10:11,nanny.py run to completion
+104,2022-10-24 12:29,nanny.py run to completion
+105,2022-10-24 18:29,nanny.py run to completion
+106,2022-10-25 10:43,Daily forecast check: last entry 2022-10-24 15:10:04 from 0.8 days ago
+107,2022-10-25 10:43,nanny.py run to completion
+108,2022-10-25 12:00,nanny.py run to completion
+109,2022-10-25 13:07,nanny.py run to completion
+110,2022-10-25 18:00,nanny.py run to completion
+111,2022-10-25 18:29,nanny.py run to completion
+112,2022-10-26 00:00,Daily forecast check: last entry 2022-10-25 15:10:04 from 0.4 days ago
+113,2022-10-26 00:00,nanny.py run to completion
+114,2022-10-26 13:52,nanny.py run to completion
+115,2022-10-26 18:00,nanny.py run to completion
+116,2022-10-26 22:43,nanny.py run to completion
+117,2022-10-26 22:48,doubtfire.py run to completion
+118,2022-10-26 23:12,doubtfire.py run to completion
+119,2022-10-26 23:16,doubtfire.py run to completion
+120,2022-10-26 23:18,Daily forecast check: bad_river_weather.csv last entry 2022-10-26 23:10:01 from 0.0 days ago
+121,2022-10-26 23:18,Daily forecast check: dubuque_ia_weather.csv last entry 2022-10-26 23:10:02 from 0.0 days ago
+122,2022-10-26 23:18,Daily forecast check: fitchburg_wi_weather.csv last entry 2022-10-26 23:10:13 from 0.0 days ago
+123,2022-10-26 23:18,Daily forecast check: hyatt_regency_maui_weather.csv last entry 2022-10-26 23:10:06 from 0.0 days ago
+124,2022-10-26 23:18,Daily forecast check: kea_lani_maui_weather.csv last entry 2022-10-26 23:10:08 from 0.0 days ago
+125,2022-10-26 23:18,Daily forecast check: lajolla_ca_weather.csv last entry 2022-10-26 23:10:03 from 0.0 days ago
+126,2022-10-26 23:18,Daily forecast check: lapointe_wi_weather.csv last entry 2022-10-26 23:10:15 from 0.0 days ago
+127,2022-10-26 23:18,Daily forecast check: longmont_co_weather.csv last entry 2022-10-26 23:10:05 from 0.0 days ago
+128,2022-10-26 23:18,Daily forecast check: morgan_hill_ca_weather.csv last entry 2022-10-26 23:10:12 from 0.0 days ago
+129,2022-10-26 23:18,Daily forecast check: pine_hill_conifer_co_weather.csv last entry 2022-10-26 23:10:10 from 0.0 days ago
+130,2022-10-26 23:18,Daily forecast check: pine_lane_orrville_oh_weather.csv last entry 2022-10-26 23:10:09 from 0.0 days ago
+131,2022-10-26 23:18,Daily forecast check: stevens_point_wi_weather.csv last entry 2022-10-26 23:10:11 from 0.0 days ago
+132,2022-10-26 23:18,Daily forecast check: washburn_wi_weather.csv last entry 2022-10-26 23:10:04 from 0.0 days ago
+133,2022-10-26 23:18,doubtfire.py run to completion
+134,2022-10-26 23:19,Daily forecast check: bad_river_weather.csv last entry 2022-10-26 23:10:01 from 0.0 days ago
+135,2022-10-26 23:19,Daily forecast check: dubuque_ia_weather.csv last entry 2022-10-26 23:10:02 from 0.0 days ago
+136,2022-10-26 23:19,Daily forecast check: fitchburg_wi_weather.csv last entry 2022-10-26 23:10:13 from 0.0 days ago
+137,2022-10-26 23:19,Daily forecast check: hyatt_regency_maui_weather.csv last entry 2022-10-26 23:10:06 from 0.0 days ago
+138,2022-10-26 23:19,Daily forecast check: kea_lani_maui_weather.csv last entry 2022-10-26 23:10:08 from 0.0 days ago
+139,2022-10-26 23:19,Daily forecast check: lajolla_ca_weather.csv last entry 2022-10-26 23:10:03 from 0.0 days ago
+140,2022-10-26 23:19,Daily forecast check: lapointe_wi_weather.csv last entry 2022-10-26 23:10:15 from 0.0 days ago
+141,2022-10-26 23:19,Daily forecast check: longmont_co_weather.csv last entry 2022-10-26 23:10:05 from 0.0 days ago
+142,2022-10-26 23:19,Daily forecast check: morgan_hill_ca_weather.csv last entry 2022-10-26 23:10:12 from 0.0 days ago
+143,2022-10-26 23:19,Daily forecast check: pine_hill_conifer_co_weather.csv last entry 2022-10-26 23:10:10 from 0.0 days ago
+144,2022-10-26 23:19,Daily forecast check: pine_lane_orrville_oh_weather.csv last entry 2022-10-26 23:10:09 from 0.0 days ago
+145,2022-10-26 23:19,Daily forecast check: stevens_point_wi_weather.csv last entry 2022-10-26 23:10:11 from 0.0 days ago
+146,2022-10-26 23:19,Daily forecast check: washburn_wi_weather.csv last entry 2022-10-26 23:10:04 from 0.0 days ago
+147,2022-10-26 23:19,Forecast data more than 1 day old for [] - email status Ok 202
+148,2022-10-26 23:19,doubtfire.py run to completion
+149,2022-10-26 23:43,Daily forecast check: bad_river_weather.csv last entry 2022-10-26 23:10:01 from 0.0 days ago
+150,2022-10-26 23:43,Daily forecast check: dubuque_ia_weather.csv last entry 2022-10-26 23:10:02 from 0.0 days ago
+151,2022-10-26 23:43,Daily forecast check: fitchburg_wi_weather.csv last entry 2022-10-26 23:10:13 from 0.0 days ago
+152,2022-10-26 23:43,Daily forecast check: hyatt_regency_maui_weather.csv last entry 2022-10-26 23:10:06 from 0.0 days ago
+153,2022-10-26 23:43,Daily forecast check: kea_lani_maui_weather.csv last entry 2022-10-26 23:10:08 from 0.0 days ago
+154,2022-10-26 23:43,Daily forecast check: lajolla_ca_weather.csv last entry 2022-10-26 23:10:03 from 0.0 days ago
+155,2022-10-26 23:43,Daily forecast check: lapointe_wi_weather.csv last entry 2022-10-26 23:10:15 from 0.0 days ago
+156,2022-10-26 23:43,Daily forecast check: longmont_co_weather.csv last entry 2022-10-26 23:10:05 from 0.0 days ago
+157,2022-10-26 23:43,Daily forecast check: morgan_hill_ca_weather.csv last entry 2022-10-26 23:10:12 from 0.0 days ago
+158,2022-10-26 23:43,Daily forecast check: pine_hill_conifer_co_weather.csv last entry 2022-10-26 23:10:10 from 0.0 days ago
+159,2022-10-26 23:43,Daily forecast check: pine_lane_orrville_oh_weather.csv last entry 2022-10-26 23:10:09 from 0.0 days ago
+160,2022-10-26 23:43,Daily forecast check: stevens_point_wi_weather.csv last entry 2022-10-26 23:10:11 from 0.0 days ago
+161,2022-10-26 23:43,Daily forecast check: washburn_wi_weather.csv last entry 2022-10-26 23:10:04 from 0.0 days ago
+162,2022-10-26 23:43,Forecast data more than 1 day old for [] - email status Ok 202
+163,2022-10-26 23:43,doubtfire.py run to completion
+164,2022-10-26 23:48,Daily forecast check: bad_river_weather.csv last entry 2022-10-26 23:10:01 from 0.0 days ago
+165,2022-10-26 23:48,Daily forecast check: dubuque_ia_weather.csv last entry 2022-10-26 23:10:02 from 0.0 days ago
+166,2022-10-26 23:48,Daily forecast check: fitchburg_wi_weather.csv last entry 2022-10-26 23:10:13 from 0.0 days ago
+167,2022-10-26 23:48,Daily forecast check: hyatt_regency_maui_weather.csv last entry 2022-10-26 23:10:06 from 0.0 days ago
+168,2022-10-26 23:48,Daily forecast check: kea_lani_maui_weather.csv last entry 2022-10-26 23:10:08 from 0.0 days ago
+169,2022-10-26 23:48,Daily forecast check: lajolla_ca_weather.csv last entry 2022-10-26 23:10:03 from 0.0 days ago
+170,2022-10-26 23:48,Daily forecast check: lapointe_wi_weather.csv last entry 2022-10-26 23:10:15 from 0.0 days ago
+171,2022-10-26 23:48,Daily forecast check: longmont_co_weather.csv last entry 2022-10-26 23:10:05 from 0.0 days ago
+172,2022-10-26 23:48,Daily forecast check: morgan_hill_ca_weather.csv last entry 2022-10-26 23:10:12 from 0.0 days ago
+173,2022-10-26 23:48,Daily forecast check: pine_hill_conifer_co_weather.csv last entry 2022-10-26 23:10:10 from 0.0 days ago
+174,2022-10-26 23:48,Daily forecast check: pine_lane_orrville_oh_weather.csv last entry 2022-10-26 23:10:09 from 0.0 days ago
+175,2022-10-26 23:48,Daily forecast check: stevens_point_wi_weather.csv last entry 2022-10-26 23:10:11 from 0.0 days ago
+176,2022-10-26 23:48,Daily forecast check: washburn_wi_weather.csv last entry 2022-10-26 23:10:04 from 0.0 days ago
+177,2022-10-26 23:48,Forecast data more than 1 day old for [] - email status Ok 202
+178,2022-10-26 23:48,doubtfire.py run to completion
+179,2022-10-26 23:48,Daily forecast check: bad_river_weather.csv last entry 2022-10-26 23:10:01 from 0.0 days ago
+180,2022-10-26 23:48,Daily forecast check: dubuque_ia_weather.csv last entry 2022-10-26 23:10:02 from 0.0 days ago
+181,2022-10-26 23:48,Daily forecast check: fitchburg_wi_weather.csv last entry 2022-10-26 23:10:13 from 0.0 days ago
+182,2022-10-26 23:48,Daily forecast check: hyatt_regency_maui_weather.csv last entry 2022-10-26 23:10:06 from 0.0 days ago
+183,2022-10-26 23:48,Daily forecast check: kea_lani_maui_weather.csv last entry 2022-10-26 23:10:08 from 0.0 days ago
+184,2022-10-26 23:48,Daily forecast check: lajolla_ca_weather.csv last entry 2022-10-26 23:10:03 from 0.0 days ago
+185,2022-10-26 23:48,Daily forecast check: lapointe_wi_weather.csv last entry 2022-10-26 23:10:15 from 0.0 days ago
+186,2022-10-26 23:48,Daily forecast check: longmont_co_weather.csv last entry 2022-10-26 23:10:05 from 0.0 days ago
+187,2022-10-26 23:48,Daily forecast check: morgan_hill_ca_weather.csv last entry 2022-10-26 23:10:12 from 0.0 days ago
+188,2022-10-26 23:48,Daily forecast check: pine_hill_conifer_co_weather.csv last entry 2022-10-26 23:10:10 from 0.0 days ago
+189,2022-10-26 23:48,Daily forecast check: pine_lane_orrville_oh_weather.csv last entry 2022-10-26 23:10:09 from 0.0 days ago
+190,2022-10-26 23:48,Daily forecast check: stevens_point_wi_weather.csv last entry 2022-10-26 23:10:11 from 0.0 days ago
+191,2022-10-26 23:48,Daily forecast check: washburn_wi_weather.csv last entry 2022-10-26 23:10:04 from 0.0 days ago
+192,2022-10-26 23:48,Forecast data more than 1 day old for [] - email status Ok 202
+193,2022-10-26 23:48,doubtfire.py run to completion
+194,2022-10-26 23:52,Daily forecast check: bad_river_weather.csv last entry 2022-10-26 23:10:01 from 0.0 days ago
+195,2022-10-26 23:52,Daily forecast check: dubuque_ia_weather.csv last entry 2022-10-26 23:10:02 from 0.0 days ago
+196,2022-10-26 23:52,Daily forecast check: fitchburg_wi_weather.csv last entry 2022-10-26 23:10:13 from 0.0 days ago
+197,2022-10-26 23:52,Daily forecast check: hyatt_regency_maui_weather.csv last entry 2022-10-26 23:10:06 from 0.0 days ago
+198,2022-10-26 23:52,Daily forecast check: kea_lani_maui_weather.csv last entry 2022-10-26 23:10:08 from 0.0 days ago
+199,2022-10-26 23:52,Daily forecast check: lajolla_ca_weather.csv last entry 2022-10-26 23:10:03 from 0.0 days ago
+200,2022-10-26 23:52,Daily forecast check: lapointe_wi_weather.csv last entry 2022-10-26 23:10:15 from 0.0 days ago
+201,2022-10-26 23:52,Daily forecast check: longmont_co_weather.csv last entry 2022-10-26 23:10:05 from 0.0 days ago
+202,2022-10-26 23:52,Daily forecast check: morgan_hill_ca_weather.csv last entry 2022-10-26 23:10:12 from 0.0 days ago
+203,2022-10-26 23:52,Daily forecast check: pine_hill_conifer_co_weather.csv last entry 2022-10-26 23:10:10 from 0.0 days ago
+204,2022-10-26 23:52,Daily forecast check: pine_lane_orrville_oh_weather.csv last entry 2022-10-26 23:10:09 from 0.0 days ago
+205,2022-10-26 23:52,Daily forecast check: stevens_point_wi_weather.csv last entry 2022-10-26 23:10:11 from 0.0 days ago
+206,2022-10-26 23:52,Daily forecast check: washburn_wi_weather.csv last entry 2022-10-26 23:10:04 from 0.0 days ago
+207,2022-10-26 23:52,Forecast data more than 1 day old for [] - email status Ok 202
+208,2022-10-26 23:52,doubtfire.py run to completion
+209,2022-10-26 23:56,Daily forecast check: bad_river_weather.csv last entry 2022-10-26 23:10:01 from 0.0 days ago
+210,2022-10-26 23:56,Daily forecast check: dubuque_ia_weather.csv last entry 2022-10-26 23:10:02 from 0.0 days ago
+211,2022-10-26 23:56,Daily forecast check: fitchburg_wi_weather.csv last entry 2022-10-26 23:10:13 from 0.0 days ago
+212,2022-10-26 23:56,Daily forecast check: hyatt_regency_maui_weather.csv last entry 2022-10-26 23:10:06 from 0.0 days ago
+213,2022-10-26 23:56,Daily forecast check: kea_lani_maui_weather.csv last entry 2022-10-26 23:10:08 from 0.0 days ago
+214,2022-10-26 23:56,Daily forecast check: lajolla_ca_weather.csv last entry 2022-10-26 23:10:03 from 0.0 days ago
+215,2022-10-26 23:56,Daily forecast check: lapointe_wi_weather.csv last entry 2022-10-26 23:10:15 from 0.0 days ago
+216,2022-10-26 23:56,Daily forecast check: longmont_co_weather.csv last entry 2022-10-26 23:10:05 from 0.0 days ago
+217,2022-10-26 23:56,Daily forecast check: morgan_hill_ca_weather.csv last entry 2022-10-26 23:10:12 from 0.0 days ago
+218,2022-10-26 23:56,Daily forecast check: pine_hill_conifer_co_weather.csv last entry 2022-10-26 23:10:10 from 0.0 days ago
+219,2022-10-26 23:56,Daily forecast check: pine_lane_orrville_oh_weather.csv last entry 2022-10-26 23:10:09 from 0.0 days ago
+220,2022-10-26 23:56,Daily forecast check: stevens_point_wi_weather.csv last entry 2022-10-26 23:10:11 from 0.0 days ago
+221,2022-10-26 23:56,Daily forecast check: washburn_wi_weather.csv last entry 2022-10-26 23:10:04 from 0.0 days ago
+222,2022-10-26 23:56,Forecast data more than 1 day old for [] - email status Ok 202
+223,2022-10-26 23:56,doubtfire.py run to completion
+224,2022-10-26 23:57,Daily forecast check: bad_river_weather.csv last entry 2022-10-26 23:10:01 from 0.0 days ago
+225,2022-10-26 23:57,Daily forecast check: dubuque_ia_weather.csv last entry 2022-10-26 23:10:02 from 0.0 days ago
+226,2022-10-26 23:57,Daily forecast check: fitchburg_wi_weather.csv last entry 2022-10-26 23:10:13 from 0.0 days ago
+227,2022-10-26 23:57,Daily forecast check: hyatt_regency_maui_weather.csv last entry 2022-10-26 23:10:06 from 0.0 days ago
+228,2022-10-26 23:57,Daily forecast check: kea_lani_maui_weather.csv last entry 2022-10-26 23:10:08 from 0.0 days ago
+229,2022-10-26 23:57,Daily forecast check: lajolla_ca_weather.csv last entry 2022-10-26 23:10:03 from 0.0 days ago
+230,2022-10-26 23:57,Daily forecast check: lapointe_wi_weather.csv last entry 2022-10-26 23:10:15 from 0.0 days ago
+231,2022-10-26 23:57,Daily forecast check: longmont_co_weather.csv last entry 2022-10-26 23:10:05 from 0.0 days ago
+232,2022-10-26 23:57,Daily forecast check: morgan_hill_ca_weather.csv last entry 2022-10-26 23:10:12 from 0.0 days ago
+233,2022-10-26 23:57,Daily forecast check: pine_hill_conifer_co_weather.csv last entry 2022-10-26 23:10:10 from 0.0 days ago
+234,2022-10-26 23:57,Daily forecast check: pine_lane_orrville_oh_weather.csv last entry 2022-10-26 23:10:09 from 0.0 days ago
+235,2022-10-26 23:57,Daily forecast check: stevens_point_wi_weather.csv last entry 2022-10-26 23:10:11 from 0.0 days ago
+236,2022-10-26 23:57,Daily forecast check: washburn_wi_weather.csv last entry 2022-10-26 23:10:04 from 0.0 days ago
+237,2022-10-26 23:57,Forecast data more than 1 day old for [] - email status Ok 202
+238,2022-10-26 23:57,doubtfire.py run to completion
+239,2022-10-26 23:59,Daily forecast check: bad_river_weather.csv last entry 2022-10-26 23:10:01 from 0.0 days ago
+240,2022-10-26 23:59,Daily forecast check: dubuque_ia_weather.csv last entry 2022-10-26 23:10:02 from 0.0 days ago
+241,2022-10-26 23:59,Daily forecast check: fitchburg_wi_weather.csv last entry 2022-10-26 23:10:13 from 0.0 days ago
+242,2022-10-26 23:59,Daily forecast check: hyatt_regency_maui_weather.csv last entry 2022-10-26 23:10:06 from 0.0 days ago
+243,2022-10-26 23:59,Daily forecast check: kea_lani_maui_weather.csv last entry 2022-10-26 23:10:08 from 0.0 days ago
+244,2022-10-26 23:59,Daily forecast check: lajolla_ca_weather.csv last entry 2022-10-26 23:10:03 from 0.0 days ago
+245,2022-10-26 23:59,Daily forecast check: lapointe_wi_weather.csv last entry 2022-10-26 23:10:15 from 0.0 days ago
+246,2022-10-26 23:59,Daily forecast check: longmont_co_weather.csv last entry 2022-10-26 23:10:05 from 0.0 days ago
+247,2022-10-26 23:59,Daily forecast check: morgan_hill_ca_weather.csv last entry 2022-10-26 23:10:12 from 0.0 days ago
+248,2022-10-26 23:59,Daily forecast check: pine_hill_conifer_co_weather.csv last entry 2022-10-26 23:10:10 from 0.0 days ago
+249,2022-10-26 23:59,Daily forecast check: pine_lane_orrville_oh_weather.csv last entry 2022-10-26 23:10:09 from 0.0 days ago
+250,2022-10-26 23:59,Daily forecast check: stevens_point_wi_weather.csv last entry 2022-10-26 23:10:11 from 0.0 days ago
+251,2022-10-26 23:59,Daily forecast check: washburn_wi_weather.csv last entry 2022-10-26 23:10:04 from 0.0 days ago
+252,2022-10-26 23:59,Forecast data more than 1 day old for [] - email status Ok 202
+253,2022-10-26 23:59,doubtfire.py run to completion
+254,2022-10-27 00:01,Daily forecast check: bad_river_weather.csv last entry 2022-10-26 23:10:01 from 0.0 days ago
+255,2022-10-27 00:01,Daily forecast check: dubuque_ia_weather.csv last entry 2022-10-26 23:10:02 from 0.0 days ago
+256,2022-10-27 00:01,Daily forecast check: fitchburg_wi_weather.csv last entry 2022-10-26 23:10:13 from 0.0 days ago
+257,2022-10-27 00:01,Daily forecast check: hyatt_regency_maui_weather.csv last entry 2022-10-26 23:10:06 from 0.0 days ago
+258,2022-10-27 00:01,Daily forecast check: kea_lani_maui_weather.csv last entry 2022-10-26 23:10:08 from 0.0 days ago
+259,2022-10-27 00:01,Daily forecast check: lajolla_ca_weather.csv last entry 2022-10-26 23:10:03 from 0.0 days ago
+260,2022-10-27 00:01,Daily forecast check: lapointe_wi_weather.csv last entry 2022-10-26 23:10:15 from 0.0 days ago
+261,2022-10-27 00:01,Daily forecast check: longmont_co_weather.csv last entry 2022-10-26 23:10:05 from 0.0 days ago
+262,2022-10-27 00:01,Daily forecast check: morgan_hill_ca_weather.csv last entry 2022-10-26 23:10:12 from 0.0 days ago
+263,2022-10-27 00:01,Daily forecast check: pine_hill_conifer_co_weather.csv last entry 2022-10-26 23:10:10 from 0.0 days ago
+264,2022-10-27 00:01,Daily forecast check: pine_lane_orrville_oh_weather.csv last entry 2022-10-26 23:10:09 from 0.0 days ago
+265,2022-10-27 00:01,Daily forecast check: stevens_point_wi_weather.csv last entry 2022-10-26 23:10:11 from 0.0 days ago
+266,2022-10-27 00:01,Daily forecast check: washburn_wi_weather.csv last entry 2022-10-26 23:10:04 from 0.0 days ago
+267,2022-10-27 00:01,doubtfire.py run to completion
+268,2022-10-27 00:01,doubtfire.py run to completion

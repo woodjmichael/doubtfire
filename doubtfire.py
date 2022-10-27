@@ -60,31 +60,37 @@ class LogFile:
             writer.writerow('0,2000-01-01 00:00,First note'.split(','))
 
 
-def send_alert_email(dt_last_entry):
+def send_alert_email(dt_last_entry, config_emails):
     '''
     Build and send the alert email
         Parmaeters: dt_last_entry (datetime): when the last log entry was
         Returns: status code of the api request
     '''
-    stat = 'Code error'
+    # Get list of emails from cfg file
+    recipients = list(config_emails)
+    emails = []
+    for recip in recipients:
+        emails.append(config_emails[recip])
+    
+    # Build and send email
     message = Mail(
         from_email='michael.wood@mugrid.com',
-        to_emails='michael.wood@mugrid.com',
+        to_emails=emails,
         subject='Automated: Open Weather Forecast Failure',
         html_content=f'Last forecast was {dt_last_entry} for at least one file. <br><br><br><img src="https://i.imgflip.com/11fjj7.jpg"/>')
     try:
         api_key = os.getenv('SENDGRID_API_KEY')
         api = SendGridAPIClient(api_key)
         response = api.send(message)
-        stat = f'Ok {response.status_code}'
+        stat = f'{response.status_code}'
     except Exception as ex:
         stat = ex
     return stat
 
 
 config = ConfigParser()
-config.read('files.cfg')
-log = LogFile('debug.log')
+config.read('setup.cfg')
+log = LogFile('doubtfire.log')
 
 files_out_of_date = []
 if log.no_entry_today():
@@ -102,7 +108,7 @@ if log.no_entry_today():
             files_out_of_date.append(filename)
     if files_out_of_date:
         # Email only once, even if multiple files out of date
-        status = send_alert_email(last_forecast_utc)
+        status = send_alert_email(last_forecast_utc, config['emails'])
         log.write(f'Forecast data more than 1 day old for {files_out_of_date} - email status {status}')
 log.write('doubtfire.py run to completion')
 log.save()
