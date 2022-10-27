@@ -7,7 +7,8 @@ __email__ = 'michael.wood@mugrid.com'
 __copyright__ = 'Copyright 2022, muGrid Analytics'
 __version__ = '1.1'
 
-import os, csv
+import os
+import csv
 from configparser import ConfigParser
 import datetime as dt
 import pandas as pd
