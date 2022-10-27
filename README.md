@@ -13,7 +13,7 @@
 - Sign up for the SendGrid email API
 - Get your key and put in as an OS environment variable (eg especially don't save your key anywhere public like GitHub)
 - May need to edit code to include your "from" email address
-## East stuff
+## Easy stuff
 - Point MS Task Scheduler (or other to the `.bat` file)
   - I've learned to also specify the run-in directory with no quotations
   - But put quotations around the path to the .bat file
