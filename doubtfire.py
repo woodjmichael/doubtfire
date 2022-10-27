@@ -31,15 +31,15 @@ class LogFile:
     def write(self, note):
         '''
         Add new line to log
-        '''
-        self.df = self.df.append({  'Log datetime UTC':dt.datetime.utcnow().\
-            strftime("%Y-%m-%d %H:%M") ,'Note':note}, ignore_index=True   )
+        '''    
+        self.df.loc[len(self.df)] = [dt.datetime.utcnow().strftime('%Y-%m-%d %H:%M'), note]
+        self.df = self.df.sort_index(ascending=False)
 
     def no_entry_today(self):
         '''
         Check if there is a log entry from today
         '''
-        dt_last_log = dt.datetime.fromisoformat( self.df['Log datetime UTC'].iloc[-1] )
+        dt_last_log = dt.datetime.fromisoformat( self.df['Log datetime UTC'].iloc[0] )
         if dt_last_log.date() == dt.datetime.utcnow().date():
             return False
         return True
@@ -88,7 +88,7 @@ def send_alert_email(dt_last_entry, cfg):
 
 config = ConfigParser()
 config.read('setup.cfg')
-log = LogFile('doubtfire.log')
+log = LogFile('open-weather.log')
 
 files_out_of_date = []
 if log.no_entry_today():
@@ -98,7 +98,7 @@ if log.no_entry_today():
         last_forecast_utc = dt.datetime.fromisoformat(df.iloc[-1, 0])
         diff = dt.datetime.utcnow() - last_forecast_utc
         diff = diff.total_seconds()/3600 # hours
-        log.write(f'Daily forecast check: {filename} last entry from {diff:.1f} hours ago')
+        log.write(f'Daily check: {filename} last entry from {diff:.1f} hours ago')
         if diff > 24: # hours
             files_out_of_date.append(filename)
     if files_out_of_date:
