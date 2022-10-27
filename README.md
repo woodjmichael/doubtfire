@@ -12,5 +12,5 @@
 - Point MS Task Scheduler (or other to the `.bat` file)
 - Add new directories and files in `.cfg`
   - Actually, need to add some code before this works for new dirs
-- Make sure the files are `.csv` and that the most recent rows are on the bottom with a date time index on the left
+- Make sure the files are `.csv` and that the most recent rows are on the bottom with a datetime index on the left
 

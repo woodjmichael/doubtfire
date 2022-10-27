@@ -5,10 +5,9 @@ is missing
 __author__ = 'Michael Wood'
 __email__ = 'michael.wood@mugrid.com'
 __copyright__ = 'Copyright 2022, muGrid Analytics'
-__version__ = '1.0'
+__version__ = '1.1'
 
-import os
-import csv
+import os, csv
 from configparser import ConfigParser
 import datetime as dt
 import pandas as pd
@@ -23,10 +22,10 @@ class LogFile:
         '''
         Check if logfile exists, create if not, then read logfile
         '''
-        self.file = logname
+        self.filename = logname
         if not os.path.isfile(logname):
-            self.create_log()
-        self.df = pd.read_csv(self.file, index_col=0, parse_dates=True)
+            self.create_logfile()
+        self.df = pd.read_csv(self.filename, index_col=0, parse_dates=True)
 
     def write(self, note):
         '''
@@ -44,33 +43,31 @@ class LogFile:
             return False
         return True
 
-    def save(self):
+    def close(self, note = None):
         '''
         Save to logfile
-        '''        
-        self.df.to_csv(self.file)
+        '''
+        if note:
+            self.write(note)       
+        self.df.to_csv(self.filename)
 
-    def create_log(self):
+    def create_logfile(self):
         '''
         Create new log if none
         '''
-        with open(self.file,'w',newline='',encoding='utf-8') as newfile:
+        with open(self.filename,'w',newline='',encoding='utf-8') as newfile:
             writer=csv.writer(newfile)
             writer.writerow(',Log datetime UTC,Note'.split(','))
             writer.writerow('0,2000-01-01 00:00,First note'.split(','))
 
 
-def send_alert_email(dt_last_entry, config_emails):
+def send_alert_email(dt_last_entry, cfg):
     '''
     Build and send the alert email
         Parmaeters: dt_last_entry (datetime): when the last log entry was
         Returns: status code of the api request
     '''
-    # Get list of emails from cfg file
-    recipients = list(config_emails)
-    emails = []
-    for recip in recipients:
-        emails.append(config_emails[recip])
+    emails = cfg['emails']['email_list'].split('\n') # returns a list
     
     # Build and send email
     message = Mail(
@@ -94,21 +91,18 @@ log = LogFile('doubtfire.log')
 
 files_out_of_date = []
 if log.no_entry_today():
-    for file in list(config['weather'])[1:]:
-        filename = config['weather'][file]
-        df = pd.read_csv(config.get('weather', 'filepath') + filename,
-                        index_col=0,
-                        parse_dates=True,
-                        usecols=[0,1])
+    for filename in config['open-weather']['files_to_check'].split('\n'):
+        df = pd.read_csv(config['open-weather']['dir'] + filename,
+                        index_col=0, parse_dates=True, usecols=[0,1])
         last_forecast_utc = dt.datetime.fromisoformat(df.iloc[-1, 0])
         diff = dt.datetime.utcnow() - last_forecast_utc
-        diff = diff.total_seconds()/3600/24 # days
-        log.write(f'Daily forecast check: {filename} last entry {last_forecast_utc} from {diff:.1f} days ago')
-        if diff > 1: # days
+        diff = diff.total_seconds()/3600 # hours
+        log.write(f'Daily forecast check: {filename} last entry from {diff:.1f} hours ago')
+        if diff > 24: # hours
             files_out_of_date.append(filename)
     if files_out_of_date:
         # Email only once, even if multiple files out of date
-        status = send_alert_email(last_forecast_utc, config['emails'])
+        status = send_alert_email(last_forecast_utc, config)
         log.write(f'Forecast data more than 1 day old for {files_out_of_date} - email status {status}')
-log.write('doubtfire.py run to completion')
-log.save()
+
+log.close('doubtfire.py run to completion')
